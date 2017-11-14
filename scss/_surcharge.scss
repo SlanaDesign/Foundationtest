@@ -49,6 +49,7 @@ h2 {
 .picture {
     display: block;
     background-image: url('../img/picture.jpg');
+    background-size: cover;
     height: 770px;
     position: relative;
 }
