@@ -10,9 +10,126 @@ li {
     }
 }
 
+h1, h2 {
+    font-family: 'Abril Fatface', cursive;
+    color: #ffffff;
+}
+
 h1 {
     position: relative;
-    top: 400px;
+    top: 350px;
     color: #b29c85;
-    font-family: 'Abril Fatface', cursive;
+}
+
+h2 {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+
+
+.button_propos {
+    position: absolute;
+    top: 650px;
+    left: 50%;
+}
+
+.a_propos {
+    background-color: #1d181f;
+    height: 770px;
+    position: relative;
+}
+
+.button_picture {
+    position: absolute;
+    top: 700px;
+    left: 50%;
+}
+
+.picture {
+    display: block;
+    background-image: url('../img/picture.jpg');
+    height: 770px;
+    position: relative;
+}
+
+.button_portfolio {
+    position: absolute;
+    top: 700px;
+    left: 50%;
+}
+
+.portfolio {
+    display: block;
+    background-color: #b29c85;
+    height: 1025px;
+    position: relative;
+}
+
+.button_blog {
+    position: absolute;
+    top: 900px;
+    left: 50%;
+}
+
+.blog {
+    display: block;
+    background-color: #1d181f;
+    height: 770px;
+    position: relative;
+}
+
+.button_contact {
+    position: absolute;
+    top:650px;
+    left: 51%;
+}
+
+.contact {
+    background-color: #306e73;
+    background-image: url('../img/photo_contact.jpg');
+    display: block;
+    height: 770px;
+}
+
+.contact input, textarea {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    border-bottom: solid 1px #3c8d93;
+    color: white;
+    text-transform: uppercase;
+}
+
+.contact input::placeholder, textarea::placeholder {
+    color: white;
+}
+
+.button_top {
+    padding: 10px;
+}
+
+.contact #envoie {
+    border: 2px solid #FFF;
+    text-align: right;
+}
+
+footer {
+    line-height: 40px;
+    height: 40px;
+}
+footer p {
+    display: inline-block;
+
+
+}
+
+footer ul {
+    display: inline-block;
+
+}
+
+footer li {
+    list-style:none;
+    display: inline-block;
 }
